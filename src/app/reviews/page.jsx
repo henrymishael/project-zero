@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import {FiChevronLeft} from "react-icons/fi";
-import thumbs from '../../../public/image18.png'
+import thumbs from '/public/image18.png'
 
 export default function page() {
   return (
