@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import {FiChevronLeft} from "react-icons/fi";
 import { MdOutlineSwipeLeft } from "react-icons/md";
 import foodList from '@corporatenerd/app/Homepage/food'
@@ -7,7 +7,11 @@ import Image from 'next/image';
 import basmatic from '/public/special.png'
 
 
+
 export default function page() {
+    const [count, setCount] = useState(1)
+    const initialState = 1
+
     return(
 
     <>
@@ -26,6 +30,11 @@ export default function page() {
             <div className=' text-center text-[17px] font-semibold translate-y-[20%]'>
                 <h2>Special Basma...</h2>
                 <h2 className='text-[#ffc83a] mt-0.5'>₦3,000</h2>
+            </div>
+            <div>
+                <button>
+                    
+                </button>
             </div>
         </div>
         <div></div>

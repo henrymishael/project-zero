@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { RxHamburgerMenu } from "react-icons/rx"
 import { CgShoppingCart } from "react-icons/cg"
 import { RiSearchLine } from "react-icons/ri"
@@ -10,6 +9,7 @@ import { MdHistory } from "react-icons/md";
 import Image from 'next/image'
 import foodList from '../food.js'
 import Link from 'next/link';
+
 
 export default function page() {
 
@@ -35,7 +35,7 @@ export default function page() {
         ))
 return (
     <div className=' '>
-        <div className='pt-[65px] text-2xl flex flex-row justify-between m-auto w-[314px]'>
+        <div className='pt-[65px] text-2xl flex flex-row justify-between m-auto w-[314px] '>
         <Link href='./Homepage/Sidebar'>
             <RxHamburgerMenu/></Link>
             <CgShoppingCart/>

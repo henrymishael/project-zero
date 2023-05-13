@@ -61,7 +61,7 @@ const search = () => {
   return ( 
     <>
       {/* <div className='pt-[60px] ' > */}
-        <div className='flex flex-row pl-[40px] pt-[60px]'>
+        <div className='flex flex-row pl-[40px] pt-[60px] move-up'>
 
             <div className='text-2xl 
             pt-4 '>
@@ -73,7 +73,7 @@ const search = () => {
         </div>
        
       </div>
-      <div className=' flex flex-col items-center w-[100%] h-[85%] mt-8 bg-[#f9f9f9] rounded-tr-[30px] rounded-tl-[30px]'>
+      <div className=' flex flex-col items-center w-[100%] h-[83%] mt-8 bg-[#f9f9f9] rounded-tr-[30px] rounded-tl-[30px] move-up'>
         {searchInput.length > 1 ?(
           <h1 className='mt-[35px] text-[28px] font-bold'>
             {filteredResults.length == 1 ? `Found ${filteredResults.length} result`:

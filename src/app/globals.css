@@ -2,5 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.slide-in {
+    animation: slide-in 0.5s ease-out forwards;
 
+}
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
 
+.move-up {
+    animation: move-up 0.5s ease-out forwards;
+
+}
+@keyframes move-up {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

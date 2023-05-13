@@ -6,12 +6,16 @@ import {MdOutlineLocalOffer} from "react-icons/md";
 import {IoDocumentTextOutline} from "react-icons/io5";
 import {MdOutlineSecurity} from "react-icons/md";
 import {BsArrowRight} from "react-icons/bs";
+import Link from 'next/link';
+import '../../../app/globals.css'
 
 export default function sideBar() {
   return (
-    <div className='bg-[#ffc83a] h-[100%] pl-[40px]'>
-        <div className='text-[24px] pt-[60px] font-bold  '>
-           <span><FiChevronLeft /></span>
+    <div className='bg-[#ffc83a] h-[100%] pl-[40px] slide-in '>
+        <div className=' text-[24px] pt-[60px] font-bold  '>
+           <Link href='./Homepage/Food'>
+           <span className=''><FiChevronLeft /></span>
+           </Link>
         </div> 
         <div className='flex flex-row pb-[26px] pt-[77px] border-b-2 border-black w-[165px]'>
         <span className='text-[24px]'><BiUserCircle /></span>
